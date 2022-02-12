@@ -182,6 +182,11 @@ border-radius: 50%;
 }
 
 @media only screen and (max-width:1042px) {
+  .header-crypto{
+    font-size: 1.6em;
+    margin-top: 150px;
+    text-align: left;
+  }
   .box1 img{
     height: 150px;
     width: 150px;
@@ -253,19 +258,24 @@ border-radius: 50%;
 }
 
 @media only screen and (max-width:866px){
+
+  .header-crypto{
+    font-size: 1.4em;
+  }
+
   .box1 .para{
     color: #5eaf61;
     font-size: 0.9em;
   }
   .box1 img{
-    height: 120px;
-    width: 120px;
+    height: 90px;
+    width: 90px;
     border-radius: 50%;
     }
 
   .box1, .box2{
-    width: 120px;
-    height: 265px;
+    width: 130px;
+    height: 260px;
   }
   .wrapper {
     margin: 100px;
@@ -276,7 +286,7 @@ border-radius: 50%;
  
 
   .box1 h1, .box2 h1{
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: #000;
   }
   .box2 p, .box1 p{
@@ -297,10 +307,10 @@ border-radius: 50%;
   }
 
   .col_half {
-    width: 35%;
+    width: 30%;
   }
   .col_third {
-    width: 17%;
+    width: 25%;
   }
   .col_fourth {
     width: 20%;
@@ -309,13 +319,13 @@ border-radius: 50%;
     width: 15%;
   }
   .col_sixth {
-    width: 25%;
+    width: 20%;
   }
   .col_three_fourth {
-    width: 64%;
+    width: 50%;
   }
   .col_twothird {
-    width: 55%;
+    width: 50%;
   }
 }
 

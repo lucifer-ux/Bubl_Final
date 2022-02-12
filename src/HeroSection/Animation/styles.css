@@ -107,3 +107,13 @@ p.subtitle {
         opacity: 1;
     }
 }
+@media only screen and (max-height:800px) {
+    #dash {
+        margin-top: -7%;
+        margin-left: 11%;
+        animation: chatblips 0.5s ease-in-out 2.7s forwards; /* assign animation to dash with 'chatblips' as keyframe name */
+        opacity: 0;
+        z-index: 2;
+    }
+    
+}
