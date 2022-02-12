@@ -1,0 +1,267 @@
+/* #242546
+#2f3158 */
+.farm-invest {
+    /* margin: auto; */
+    /* padding: 5rem 2.5rem; */
+    height: 400px;
+    min-width: 100vw;
+    text-align: center;
+    background-color: #2f3158;
+    filter: drop-shadow(0 0 0.75rem rgba(27, 31, 35, 0.15));
+    margin-bottom: 10rem;
+  }
+  
+  .farm-invest__title {
+    font-size: 3.6rem;
+    color: #fff;
+  }
+  
+  .farm-invest__title span {
+    color: #8C52FF;
+  }
+  
+  .btn__farm--invest {
+    border: 1px solid #8C52FF;
+    color: #ffffff;
+    display: inline-block;
+    min-width: 25rem;
+    margin-top: 4rem;
+    box-shadow: 1px 10px 30px -10px #8C52FF;
+    /*
+      Button hover effect resource
+      https://codepen.io/alticreation/pen/zBZwOP
+      */
+    display: inline-block;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .btn__farm--invest:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8C52FF;
+    z-index: -2;
+  }
+  
+  .btn__farm--invest:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #ffffff;
+    transition: all .3s;
+    z-index: -1;
+  }
+  
+  .btn__farm--invest:hover {
+    color: #8C52FF;
+  }
+  
+  .btn__farm--invest:hover:before {
+    width: 100%;
+  }
+
+
+  .footer {
+    position: relative;
+    background-color:#242546;
+  }
+  
+  .footer__body {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 2.5rem;
+    align-items: baseline;
+    padding-bottom: 5rem;
+    border-bottom: 2px solid #f7f7f7;
+  }
+  
+  .footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 9 2 auto;
+    grid-row-gap: 2.5rem;
+  }
+  
+  .footer_nav__menu {
+    flex-basis: 33%;
+    list-style: none;
+    color: #fff;
+  }
+  
+  .footer_nav__item {
+    padding: 1rem 2.5rem;
+  }
+  
+  .footer_nav__menu__title {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+  
+  .footer_nav__link {
+    font-size: 1.6rem;
+    color: #b5b7b8;
+    transition: .2s all;
+  }
+  
+  .footer_nav__link:hover {
+    color: #8C52FF;
+  }
+  
+  .footer__contact {
+    flex: 1 0 28rem;
+    background-color: #242546;
+    padding: 5rem 5rem 10rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer__contact > * {
+    max-width: 16rem;
+  }
+  
+  .footer__contact__title {
+    margin-bottom: 1.5rem;
+  }
+  
+  .email {
+    line-height: 1.9em;
+    color: #ffffff;
+  }
+  
+  .btn__signin {
+    margin-top: 1.5rem;
+    border: 1px solid #ffffff;
+    color: #8C52FF;
+    /*
+      Button hover effect resource
+      https://codepen.io/alticreation/pen/zBZwOP
+      */
+    display: inline-block;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .btn__signin:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: -2;
+  }
+  
+  .btn__signin:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #8C52FF;
+    transition: all .3s;
+    z-index: -1;
+  }
+  
+  .btn__signin:hover {
+    color: #ffffff;
+  }
+  
+  .btn__signin:hover:before {
+    width: 100%;
+  }
+  
+  .footer__bottom__content {
+    margin-top: 5rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 5rem auto 0;
+    padding-bottom: 10rem;
+  }
+  
+  .footer_copyright {
+    color: #607D8B;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+  .footer_img {
+    position: absolute;
+    bottom: 0;
+    right: -1.5rem;
+    max-width: 50rem;
+  }
+  
+  /*End Footer*/
+
+  @media screen and (max-width: 768px) {
+    .footer_nav__menu {
+      text-align: center;
+    }
+    .footer__bottom__content {
+      flex-direction: column;
+      grid-row-gap: 4.5rem;
+      align-items: center;
+    }
+    /*end Footer*/
+  }
+  
+  @media screen and (max-width: 500px) {
+    .footer_nav__menu {
+      text-align: left;
+    }
+    .footer{
+        min-width: 150vw;
+    }
+    .footer__contact {
+      width: 100%;
+    }
+    .farm-invest {
+        min-width: 150vw;
+    }
+    /*End Footer*/
+  }
+  
+  @media screen and (max-width: 360px) {
+    /*Invest Section*/
+    .invest__body {
+      grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    }
+    .farm-invest {
+        min-width: 200vw;
+    }
+    /*End Invest Section*/
+    /*How Is Works*/
+    .progressbar__step {
+      width: 4rem;
+      height: 4rem;
+    }
+    /*End How Is Works*/
+    /*Testimonials */
+    .testimonial__profile {
+      flex-direction: column;
+      text-align: center;
+    }
+    /*End Testimonials*/
+    /*Farm Invest*/
+    .btn__farm--invest {
+      width: 80%;
+      min-width: initial;
+    }
+}

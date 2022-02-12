@@ -20,7 +20,7 @@ const Card = () => {
     <div className="wrapping-content">
       <h1 className="header-crypto">Invest in curated portfolios</h1>
 
-      <div class="wrapper">
+      <div className="wrapper">
         <div className="col_third">
           <div
             className={hovered1 ? "hover panel flip" : "hover panel"}
