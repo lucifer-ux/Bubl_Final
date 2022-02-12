@@ -1,7 +1,19 @@
 .App {
   text-align: center;
 }
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 
+body{
+  line-height: 1.65;
+  text-align: left;
+  margin:auto;
+  font-family: 'Inconsolata', monospace;
+  background: url(../src/images/bg1.png) cover no-repeat;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -1,0 +1,154 @@
+body{
+  background: url(../images/bg.png);
+}
+.container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+AiOutlineBars{
+  color: white;
+}
+.menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  padding-right: 50px;
+}
+#hidden{
+  display: flex;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  height: 250px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-items {
+  display: flex;
+  justify-content: flex-end;
+  padding: auto;
+  width: auto;
+  list-style: none;
+  font-size: 1.2rem;
+}
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(102, 101, 101);
+}
+a:hover {
+  color: #8c54fd;
+}
+.menu-links {
+  display: flex;
+  list-style: none;
+  width: auto;
+
+}
+.menu-links a {
+  opacity: 1;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 9px 16px 7px 7px;
+  border-radius: 6px;
+  transition: 0.2s;
+  color: #000;
+}
+.menu-links a:hover {
+  background-color: #8c54fd;
+}
+a::selection {
+  background-color: #8c54fd;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+    margin-left: -10px;
+    align-items: center !important;
+}
+.col{
+  position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/* 
+hero stylling */
+.hero-section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.hero-section .container-hero {
+  width: 1290px;
+  margin: auto;
+  max-width: 95%;
+  margin-bottom: 300px;
+}
+.hero-section .content-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-section .content-hero .left-side {
+  width: 700px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.right-side{
+  height: 350px;
+  width: 250px;
+  margin-right: 100px;
+}
+.hero-section .content-hero .left-side span {
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -0.01em;
+  line-height: 50px;
+  text-align: left;
+  color: #8E22F4;
+  position: relative;
+}
+.hero-section .content-hero .left-side h1{
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -0.01em;
+  line-height: 70px;
+  text-align: left;
+}
+.hero-section .content-hero .left-side p {
+  width: 90%;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: left;
+  color: #4b4949;
+  margin-top: 15px;
+}
+/* 
+bars stylling */
+.mobile-menu-icon{
+  display: none;
+
+}
+.navbar .mobile-menu-items{
+  display: none;
+
+}
