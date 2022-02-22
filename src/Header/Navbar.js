@@ -31,18 +31,25 @@ function Navbar() {
              {collapse ? (<AiOutlineBars/>
              ) : <ImCross/>}
             </button>
- 
+              
+             
             <ul className="menu-links" id='menu-links'>
+
+            <button className='login-button one'>
               <li id="login">
                 <a href="#" className="login-link">
                   Login
                 </a>
               </li>
+              </button>
+              
+              <button className='login-button two'>
               <li id="dashboard">
                 <a href="#" className="starred-link login-link">
                   Get Started
                 </a>
               </li>
+              </button>
             </ul>
           </nav>
 

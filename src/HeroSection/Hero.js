@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/styles.css";
-import heroImage from '../images/heroImage1.svg'
+import heroImage from '../images/MAIN.png'
 import TypeAnimation from 'react-type-animation';
-import Animation from "./Animation/Animation";
 
 function Hero() {
   return (
@@ -35,7 +34,7 @@ function Hero() {
               </p>
             </div>
             <div className="right-side">
-                  <Animation/>
+                  <img src = {heroImage} height={450} width={650} alt="man with coin"/>
                 
             </div>
           </div>

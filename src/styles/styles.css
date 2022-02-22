@@ -24,6 +24,15 @@ AiOutlineBars{
   height: 75px;
   padding-right: 50px;
 }
+.login-button{
+  border-radius: 6px;
+  background-color: rgb(31, 30, 30);
+  padding: 3px 10px 3px 3px;
+}
+.login-button:hover{
+background-color: #8c54fd;
+}
+
 #hidden{
   display: flex;
   position: absolute;
@@ -40,13 +49,13 @@ AiOutlineBars{
   padding: auto;
   width: auto;
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 a {
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
-  color: rgb(102, 101, 101);
+  color: rgb(46, 44, 44);
 }
 a:hover {
   color: #8c54fd;
@@ -54,17 +63,22 @@ a:hover {
 .menu-links {
   display: flex;
   list-style: none;
-  width: auto;
-
+}
+.one{
+  margin-right: 5px;
+}
+.two{
+  margin-left: 5px;
 }
 .menu-links a {
   opacity: 1;
   font-weight: 500;
-  font-size: 1.2rem;
-  padding: 9px 16px 7px 7px;
+  font-size: 1.4rem;
+  padding: 7px 15px 5px 5px;
   border-radius: 6px;
   transition: 0.2s;
-  color: #000;
+  color: rgb(218, 216, 212);
+
 }
 .menu-links a:hover {
   background-color: #8c54fd;
@@ -106,17 +120,11 @@ hero stylling */
   align-items: center;
 }
 .hero-section .content-hero .left-side {
-  width: 700px;
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  
 }
-.right-side{
-  height: 350px;
-  width: 250px;
-  margin-right: 100px;
-}
+
 .hero-section .content-hero .left-side span {
   font-weight: 700;
   font-size: 50px;

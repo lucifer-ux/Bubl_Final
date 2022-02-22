@@ -3,7 +3,7 @@
 .farm-invest {
     /* margin: auto; */
     /* padding: 5rem 2.5rem; */
-    height: 400px;
+    height: 130px;
     min-width: 100vw;
     text-align: center;
     background-color: #2f3158;
@@ -234,6 +234,10 @@
     }
     .farm-invest {
         min-width: 150vw;
+        max-height: 100px;
+    }
+    section .farm-invest__title{
+      justify-content: center;
     }
     /*End Footer*/
   }
